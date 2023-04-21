@@ -15,15 +15,15 @@ export default function Card() {
           </div>
           <div>
             <div className="card-container">
-              <div style={{ margin: "10% 3%" }} class="card">
+              <div style={{ margin: "10% 3%" }} className="card">
                 <img
                   style={{ width: "70px", marginLeft: "33%" }}
                   src="./images/finance.png"
-                  alt="Image 2"
+                  alt="Imag2"
                 />
                 <div className="card-body">
-                  <h3 class="card-title">Financial Planning System</h3>
-                  <p style={{ fontSize: "12px" }} class="card-text">
+                  <h3 className="card-title">Financial Planning System</h3>
+                  <p style={{ fontSize: "12px" }} className="card-text">
                     Protocols apart from aengage models, pricing billing
                   </p>
                 </div>
@@ -32,11 +32,11 @@ export default function Card() {
                 <img
                   style={{ width: "70px", marginLeft: "33%" }}
                   src="./images/bussiness.png"
-                  alt="Image 2"
+                  alt="Imag"
                 />
                 <div className="card-body">
-                  <h3 class="card-title">Business Idea Planning</h3>
-                  <p style={{ fontSize: "12px" }} class="card-text">
+                  <h3 className="card-title">Business Idea Planning</h3>
+                  <p style={{ fontSize: "12px" }} className="card-text">
                     We present you a proposal and discuss niffty-gritty like
                   </p>
                 </div>
@@ -46,28 +46,28 @@ export default function Card() {
         </div>
         <div>
           <div className="card-container">
-            <div style={{ margin: "10% 3%", width: "33%" }} class="card">
+            <div style={{ margin: "10% 3%", width: "33%" }} className="card">
               <img
                 style={{ width: "70px", marginLeft: "33%" }}
                 src="./images/develoment.png"
-                alt="Image 2"
+                alt="Imag"
               />
               <div className="card-body">
-                <h3 class="card-title">Development Website and App</h3>
-                <p style={{ fontSize: "12px" }} class="card-text">
+                <h3 className="card-title">Development Website and App</h3>
+                <p style={{ fontSize: "12px" }} className="card-text">
                   Communication protocols apart from engagement models
                 </p>
               </div>
             </div>
-            <div style={{ width: "30%" }} class="card">
+            <div style={{ width: "30%" }} className="card">
               <img
                 style={{ width: "70px", marginLeft: "33%" }}
                 src="./images/marketananlyst.png"
-                alt="Image 2"
+                alt="Ima2"
               />
-              <div class="card-body">
-                <h3 class="card-title">Market Analysis Project</h3>
-                <p style={{ fontSize: "12px" }} class="card-text">
+              <div className="card-body">
+                <h3 className="card-title">Market Analysis Project</h3>
+                <p style={{ fontSize: "12px" }} className="card-text">
                   Protocols apart from aengage models, pricing billing
                 </p>
               </div>
