@@ -14,27 +14,27 @@ export default function Card() {
             </p>
           </div>
           <div>
-            <div class="card-container">
-              <div class="card">
+            <div className="card-container">
+              <div style={{ margin: "10% 3%" }} class="card">
                 <img
-                  style={{ width: "70px", marginLeft: "10% 33% 0 0" }}
+                  style={{ width: "70px", marginLeft: "33%" }}
                   src="./images/finance.png"
                   alt="Image 2"
                 />
-                <div class="card-body">
+                <div className="card-body">
                   <h3 class="card-title">Financial Planning System</h3>
                   <p style={{ fontSize: "12px" }} class="card-text">
                     Protocols apart from aengage models, pricing billing
                   </p>
                 </div>
               </div>
-              <div class="card">
+              <div className="card">
                 <img
                   style={{ width: "70px", marginLeft: "33%" }}
                   src="./images/bussiness.png"
                   alt="Image 2"
                 />
-                <div class="card-body">
+                <div className="card-body">
                   <h3 class="card-title">Business Idea Planning</h3>
                   <p style={{ fontSize: "12px" }} class="card-text">
                     We present you a proposal and discuss niffty-gritty like
@@ -45,14 +45,14 @@ export default function Card() {
           </div>
         </div>
         <div>
-          <div class="card-container">
-            <div style={{ marginTop: "10%", width: "30%" }} class="card">
+          <div className="card-container">
+            <div style={{ margin: "10% 3%", width: "33%" }} class="card">
               <img
                 style={{ width: "70px", marginLeft: "33%" }}
                 src="./images/develoment.png"
                 alt="Image 2"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <h3 class="card-title">Development Website and App</h3>
                 <p style={{ fontSize: "12px" }} class="card-text">
                   Communication protocols apart from engagement models
