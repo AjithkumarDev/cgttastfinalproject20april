@@ -22,6 +22,29 @@ export default function Endbar() {
 
         <img className="imgContent2" src="./images/groupimage.png" alt="...." />
       </div>
+      <div className="subscribe">
+        <div className="card">
+          <div class="text-segment">
+            <h2>Subscribe Newsletter</h2>
+            <p>I will update good news and promotion service not spam</p>
+          </div>
+          <form action="">
+            <input
+              type="search"
+              className="search form-control-lg"
+              placeholder="Enter your email address..."
+            />
+            <span className="btn btn-sucess">Contact Now</span>
+          </form>
+          <div class="image-segment">
+            <img
+              style={{ height: "250px" }}
+              src="./images/blueback.png"
+              alt="Your Image"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

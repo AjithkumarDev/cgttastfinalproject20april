@@ -12,11 +12,6 @@
 .textcardp {
   width: 75%;
 }
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  float: right;
-}
 
 .card {
   display: absolute;
@@ -29,6 +24,10 @@
   border: 0;
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card-container {
+  display: flex;
+  float: right;
 }
 
 .card img {

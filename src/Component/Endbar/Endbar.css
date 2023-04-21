@@ -15,3 +15,29 @@
 .imgContent2 {
   width: 30%;
 }
+.subscribe {
+  display: flex;
+  flex: 2;
+  width: 100%;
+  column-count: 2;
+  column-gap: 20px;
+  height: auto;
+}
+
+.card {
+  display: absolute;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 250px;
+}
+
+.text-segment {
+  flex-basis: 100%;
+  padding: 20px;
+}
+
+.image-segment {
+  flex-basis: 100%;
+}

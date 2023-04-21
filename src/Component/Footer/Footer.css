@@ -1,0 +1,27 @@
+.footer {
+  padding: 20px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 20%;
+  padding: 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: start;
+  font-weight: 700;
+}
+
+.footer-column p {
+  font-size: 14px;
+  margin: 0 10px;
+  text-align: justify;
+  text-align: start;
+}

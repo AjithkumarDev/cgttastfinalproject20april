@@ -15,9 +15,9 @@ export default function Card() {
           </div>
           <div>
             <div class="card-container">
-              <div style={{ marginTop: "10%" }} class="card">
+              <div class="card">
                 <img
-                  style={{ width: "70px", marginLeft: "33%" }}
+                  style={{ width: "70px", marginLeft: "10% 33% 0 0" }}
                   src="./images/finance.png"
                   alt="Image 2"
                 />
