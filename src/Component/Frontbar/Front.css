@@ -1,0 +1,44 @@
+#FrontbarImg {
+  float: right;
+  width: 100%;
+
+  margin-top: 10%;
+}
+.fronttext {
+  display: flex;
+}
+
+.fronttext,
+.fronttext img {
+  position: relative;
+}
+
+.fronttext img:first-child {
+  top: -1%;
+  left: -47%;
+}
+
+.fronttext img:last-child {
+  bottom: 27%;
+  right: 0;
+}
+
+div h1 {
+  font: 20px;
+  font-weight: 700;
+}
+.text-content1 {
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div p {
+  text-align: justify;
+}
+.nav-item {
+  display: flex;
+  margin: 0 5%;
+  width: auto;
+  height: 40px;
+}
