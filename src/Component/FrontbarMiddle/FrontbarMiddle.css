@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex: 2;
+}
+.content02 {
+  flex: 1;
+}
+.textcontent03 {
+  text-align: center;
+}
